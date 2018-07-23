@@ -28,12 +28,5 @@ describe('Home Component', () => {
     it('should render without throwing an error', () => {
         expect(home.exists()).toBe(true)
     })
-
-    // it('should render a Department list', () => {
-    //     expect(home.find('div')).toBe(true)
-    // })
-
-    // it('should render a Employee Id list', () => {
-    //     expect(shallow(<Home />).find('#password').length).toEqual(1)
-    // })
 })
+

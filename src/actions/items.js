@@ -1,3 +1,4 @@
+// To get the user ID onchange of employee id list
 export function itemsUserID(number) {
     return {
         type: 'ITEMS_USERID',
@@ -5,6 +6,7 @@ export function itemsUserID(number) {
     };
 }
 
+// To get the Employee IDS list onchange of department
 export function getEmployeeIDArray(Object) {
     return {
         type: 'EMPLOYEE_ID_LIST',
@@ -12,6 +14,7 @@ export function getEmployeeIDArray(Object) {
     };
 }
 
+//To clear the dropdown selection
 export function clearData(bool) {
     return {
         type: 'CLEAR_SELECTION',
@@ -19,6 +22,7 @@ export function clearData(bool) {
     };
 }
 
+//To show error on fetch data
 export function itemsHasErrored(bool) {
     return {
         type: 'ITEMS_HAS_ERRORED',
@@ -26,6 +30,7 @@ export function itemsHasErrored(bool) {
     };
 }
 
+// To show loader till response is pending
 export function itemsIsLoading(bool) {
     return {
         type: 'ITEMS_IS_LOADING',
@@ -33,6 +38,7 @@ export function itemsIsLoading(bool) {
     };
 }
 
+// On sucees of request
 export function itemsFetchDataSuccess(items) {
     return {
         type: 'ITEMS_FETCH_DATA_SUCCESS',
