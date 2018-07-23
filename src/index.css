@@ -1,0 +1,48 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.user-info-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+.ms-Dropdown-container {
+  width: 250px;
+}
+.app-container {
+  width: 60%;
+  margin: auto;
+}
+
+.user-details {
+  width: 50%;
+  margin: 40px auto;
+}
+
+.user-details img {
+  width: 100%;
+}
+.user-info-wrapper div {
+  flex-grow: 2;
+  margin-right: 10px;
+}
+.user-info-wrapper button {
+  margin-right: 20px;
+}
+.user-info {
+  display: flex;
+  justify-content: space-between;
+}
